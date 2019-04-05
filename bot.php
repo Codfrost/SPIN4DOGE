@@ -9,7 +9,7 @@ function login($user_id,$FuulBalance){
 	$arr = array("\r","	");
 	$url = "http://spin4dogecoin.cf/api/controller.php";
 	$h = explode("\n",str_replace($arr,"","User-Agent: Dalvik/2.1.0 (Linux; U; Android 8.1.0; vivo 1808 Build/O11019))";
-	$body = "user_i=$user_i&user_id=$user_id&FuulBalance=$FuulBalance&";
+	$body = "user_id=$user_id&FuulBalance=$FuulBalance&";
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $url);
 	curl_setopt($ch, CURLOPT_HTTPHEADER, $h);
