@@ -1,0 +1,2 @@
+# SPIN4DOGE
+V 1.0
